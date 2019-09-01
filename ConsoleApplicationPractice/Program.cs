@@ -19,7 +19,7 @@ namespace ConsoleApplicationPractice
             Console.WriteLine("Enter Third Number");
             var thirdNumber = Console.ReadLine();
             Program program = new Program();
-            var sum = program.Addition(Convert.ToInt32(firstNumber), Convert.ToInt32(secondNumber), Convert.ToInt32(thirdNumber);
+            var sum = program.Addition(Convert.ToInt32(firstNumber), Convert.ToInt32(secondNumber), Convert.ToInt32(thirdNumber));
             Console.WriteLine("The sum of {0} and {1} is {2}", firstNumber, secondNumber, sum);
             Console.WriteLine("Press Y key to calculate other number");
             var pressedKey = Console.ReadKey();
