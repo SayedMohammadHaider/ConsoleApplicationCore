@@ -14,10 +14,13 @@ namespace ConsoleApplicationPractice
         {
             Console.WriteLine("Enter First Number");
             var firstNumber = Console.ReadLine();
+
             Console.WriteLine("Enter Second Number");
             var secondNumber = Console.ReadLine();
+
             Console.WriteLine("Enter Third Number");
             var thirdNumber = Console.ReadLine();
+
             Program program = new Program();
             var sum = program.Addition(Convert.ToInt32(firstNumber), Convert.ToInt32(secondNumber), Convert.ToInt32(thirdNumber));
             Console.WriteLine("The sum of {0} and {1} is {2}", firstNumber, secondNumber, sum);
