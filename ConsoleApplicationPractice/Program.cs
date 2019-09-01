@@ -13,6 +13,7 @@ namespace ConsoleApplicationPractice
         public void CalculationMethod()
         {
             Console.WriteLine("Enter First Number");
+
             var firstNumber = Console.ReadLine();
             Console.WriteLine("Enter Second Number");
             var secondNumber = Console.ReadLine();
