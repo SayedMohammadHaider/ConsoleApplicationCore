@@ -40,7 +40,6 @@ namespace ConsoleApplicationPractice
             {
                 CalculationMethod();
             }
-
         }
 
         public int Addition(int firstNumber, int secondNumber)
