@@ -6,8 +6,12 @@ namespace ConsoleApplicationPractice
     {
         static void Main(string[] args)
         {
-            Program program = new Program();
-            program.CalculationMethod();
+            //Program program = new Program();
+            //program.CalculationMethod();
+
+            DictionaryTest test = new DictionaryTest();
+            test.DictionaryPractice();
+
         }
 
         public void CalculationMethod()
